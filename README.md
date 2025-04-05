@@ -57,7 +57,7 @@ To simulate tokenized investment in real estate using blockchain principles — 
 
 ### 💸 Token Purchase Simulation
 - **"Emeralds" Token Input**: Simulates token purchases (e.g., $100 = 10 Emeralds)
-- **Mock Blockchain Interface**: No real chain or wallet needed
+- **Blockchain Interface**: No real chain or wallet needed
 - **Confirmation Receipts**: Simulated transaction outcomes
 - **Error Handling**: Educational disclaimers (e.g., “This is a simulation only”)
 
