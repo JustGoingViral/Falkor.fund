@@ -1,0 +1,17 @@
+default: &default
+  host: <%= ENV.fetch("INFLUXDB_HOST", "127.0.0.1").split(',') %>
+  port: <%= ENV.fetch("INFLUXDB_PORT", 8086) %>
+  username: <%= ENV.fetch("INFLUXDB_USER", "root") %>
+  password: <%= ENV.fetch("INFLUXDB_PASS", "root") %>
+
+development:
+  <<: *default
+  database: falkor_development
+
+test:
+  <<: *default
+  database: falkor_test
+
+production:
+  <<: *default
+  database: <%= ENV.fetch('INFLUXDB_DATABASE_NAME', "falkor_production") %>

@@ -1,0 +1,9 @@
+source 'https://rubygems.org'
+# List your plugins here.
+
+gem 'falkor-dash', '~> 2.6.1'
+gem 'falkor-litecoin', '~> 2.6.1'
+gem 'falkor-bitcoincash', '~> 2.6.1'
+gem 'falkor-ripple', '~> 2.6.1'
+gem 'falkor-bitgo', '~> 2.6.6'
+gem 'falkor-electrum', '~> 2.6.2'
